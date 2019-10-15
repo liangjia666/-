@@ -18,6 +18,7 @@ Page({
   onLoad: function () {
     console.log('成功进入');
     console.log('成功进入2');
+    console.log('成功进入3');
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
